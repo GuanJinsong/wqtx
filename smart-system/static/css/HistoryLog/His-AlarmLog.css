@@ -1,0 +1,33 @@
+.his_alBox{width:100%;height:100%;position:relative;padding-top:80px;}
+.his_alHead{position:absolute;z-index:1;left:0;top:0;right:0;display:flex;justify-content:space-between;height:80px;padding:24px 20px;border-bottom:1px solid #00CCFF;}
+.his_alHeadAfter{width:90%;}
+.his_alSelectPut{width:100%;display:flex;justify-content:flex-start;align-items:center;}
+.his_alSelectBtn,.his_alPrintingBtn{height:30px;line-height:28px;min-width:95px;font-size:12px;border:1px solid #00CCFF;background-color:#095b81;color:#FFFFFF;cursor:pointer;}
+.his_alPrintingBtn{padding:2px 5px;display:flex;align-items:center;}
+.his_alPrintingBtn span{font-size:20px;}
+.his_alPrintingBtn i{margin-left:5px;font-style: normal;}
+.his_alTableBox{height:100%;width:100%;overflow-y: auto;}
+
+.date_picker >>> ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+.dateRange >>> ::-moz-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+.dateRange >>> ::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+.el-range-editor--mini .el-range-input {
+    width: 85px;
+    background-color: #00000000;
+    color: #FFFFFF;
+    font-size: 14px !important;
+}
+.el-range-editor--mini .el-range-separator {
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    align-items: center;
+}
+.el-date-editor .el-range__close-icon {
+    width: 20px !important;
+}

@@ -1,0 +1,12 @@
+.sys_setLeftAfter{width:100%;height:100%;box-sizing: border-box;padding:60px 25px 60px 25px;position:relative;}
+.sys_setLeftTitle{width:100%;height:60px;line-height:60px;text-align: center; position:absolute;z-index:1;left:0;top:0;box-sizing:border-box;padding:0px 15px;}
+.sys_setLeftTitle h6{font-size:18px;background-image:url(../../images/title1.png);background-repeat:no-repeat;background-size:100% 30%;background-position: center;}
+.sys_setLeftList{overflow-y: auto;height:100%;width:100%;}
+.sys_setLeftList li{border:1px solid #00479c;margin-bottom:15px;text-align:center; box-sizing:border-box;height:40px;line-height:40px;padding:0px 40px;}
+.sys_typeSlt{background-color:#00CCFF;}
+.sys_dsUl li{position:relative;padding-left:90px;margin-bottom:10px;}
+.sys_dsUl li .dsTitle{position:absolute;z-index:1;width:90px;line-height:30px;top:0;left:0;font-size:14px;}
+.dsFlex{display:flex;justify-content:space-between;}
+.dsFlex i{line-height:30px;height:30px;font-style:normal;}
+.questionIco{font-size:23px;}
+.btTxt{font-size:12px;line-height:20px;}

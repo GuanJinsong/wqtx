@@ -1,0 +1,16 @@
+.sys_verBox{width:100%;height:100%;}
+.sys_verTop{width:100%;height:40%;position:relative;padding-top:50px;}
+.sys_verTitile{position:absolute;z-index:1;left:0;top:0;right:0;padding:10px 30px;display:flex;justify-content:flex-start;
+color:#FFFFFF;background-image:url(../../images/line2.png);background-repeat:no-repeat;background-size:100% 100%;
+}
+.sys_verTitile h6{font-size:16px;margin-right:10px;line-height:24px;}
+.sys_verbox{padding:20px 20px 20px 100px;position:relative;}
+.sys_verIco_box{position: absolute;z-index: 1;left: 20px;top: 20px;width: 50px;height: 50px;}
+.sys_verIco{width:50px;height:auto;}
+.sys_verboxUl{width:100%;height:100%;}
+.sys_verboxUl li{min-height:40px;display:flex;justify-content:flex-start;}
+.sys_verboxUl li span{margin-right:20px;line-height:30px;}
+.sys_verboxUl li input{width:250px;height:30px;background-color:#0b143b;border:none;font-size:14px;color:#FFFFFF;}
+.sys_verboxUl li i{font-size:12px;line-height:30px;margin-left:5px;color:#636161;}
+.sys_verboxUl li p{line-height:30px;font-size:14px;}
+.sys_verBor{border:1px solid #00CCFF!important;}

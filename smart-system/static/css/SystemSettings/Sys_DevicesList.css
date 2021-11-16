@@ -1,0 +1,6 @@
+.sys_dlParent{width:100%;height:100%;position:relative;padding-top:70px;}
+.sys_dlSearchBox{position:absolute;z-index:1;left:0;top:0;right:0;width:100%;height:70px;display:flex;justify-content: flex-start;padding:20px 30px;}
+.sys_dlSelectput{width:200px;height:30px;margin-right:20px;}
+.sys_dlTableParent{width:100%;height:100%;}
+.sys_dlSearchBox button{height:30px;border:1px solid #0c9ec5;width:60px;background-color:#095b81;color:#FFFDEF;margin-left:10px;cursor:pointer;}
+.sys_dlSearch{height:30px;border:1px solid #0c9ec5;width:100%;background-color:#192a48!important;padding:0px 5px;color:#FFFFFF;}

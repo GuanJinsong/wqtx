@@ -1,0 +1,27 @@
+.sys_dsBox{width:100%;height:100%;}
+.sys_dsTop{width:100%;height:40%;position:relative;padding-top:50px;}
+.sys_dsTitile{position:absolute;z-index:1;left:0;top:0;right:0;padding:10px 30px;display:flex;justify-content:flex-start;
+color:#FFFFFF;background-image:url(../../images/line2.png);background-repeat:no-repeat;background-size:100% 100%;
+}
+.sys_dsTitile h6{font-size:16px;margin-right:10px;line-height:24px;}
+.sys_dsTitile span{font-size:16px;font-weight:bold;padding:4px;background-color:#0e9dc7;cursor:pointer;}
+.sys_dsBotton{width:100%;height:60%;position:relative;padding-top:50px;}
+.sys_dsBotBox{width:100%;height:100%;padding:20px 30px 60px 30px;}
+.sys_dsBtUL li{position:relative;width:100%;padding-left:300px;min-height:30px;margin-bottom:20px;}
+.lumenList{position:absolute;z-index:1;left:0;top:0;width:250px;height:30px;display:flex;justify-content: space-between;align-items:center;}
+.lumenList p{width:116px;height:30px;line-height:30px;font-size:14px;}
+.ds_rank{display:flex!important;justify-content:flex-start;}
+.luRad{width:150px;height:30px;border:1px solid #00CCFF;line-height:30px;text-align: center;}
+.luRad label{width:100%!important;height:100%!important;padding-right:25px!important;box-sizing: border-box!important;line-height:28px!important;color:#FFFFFF;background-color:rgba(0,0,0,0);}
+.luRad:nth-of-type(2){margin:0px 50px;}
+.luRad .el-radio__inner{opacity:0;}
+.dsrankback{background-color:#043172;}
+.ds_tvParent{position:relative;padding-left:160px;width:100%;}
+.ds_tvTitle{position:absolute;z-index:1;left:0px;top:0px;width:160px;height:30px;line-height:30px;font-size:14px;}
+.ds_tvTitle span{font-size:18px;padding:4px;font-weight:bold;background-color:#0c9ec5;cursor:pointer;}
+.ds_tvList{width:300px;}
+.ds_tvList li{width:100%;position:relative;padding-right:40px;margin-bottom:15px;}
+.ds_tvDel{position:absolute;z-index: 1;right:5px;top:3px;border-radius:50%;padding:3px;background-color:#31538f;cursor:pointer;}
+.sys_dsSureBtn{width:100%;padding:30px 10px;text-align:center;}
+.sys_dsSureBtn button{padding:4px 8px;border:1px solid #0c9ec5;color:#FFFFFF;background-color:#095b81;cursor:pointer;}
+.sys_dsSureBtn button:hover{background-color:#00CCFF;}

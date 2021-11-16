@@ -1,0 +1,32 @@
+.indexRightBox{width:365px;height:100%;background-color:rgba(2,43,95,0.4);border:1px solid #00CCFF;box-shadow:0px 0px 10px #0da9b4 inset;}
+.indexRightList{width:100%;height:100%;overflow-y:auto;padding:10px;box-sizing:border-box;}
+.indexRightList li{min-height:50px;position:relative;cursor:pointer;padding:5px 5px 5px 40px;border:1px solid #cc3335;background-color:rgba(4,69,163,0.2);margin-bottom:15px;box-shadow:0px 0px 8px #cb3332;}
+.indexRightList li img{position:absolute;z-index:1;left:4px;top:14px;width:30px;height:auto;}
+.roomRightT{margin-right:10px;}
+.ind_RigtTitle{display:flex;justify-content:space-between;font-size:14px;}
+.ind_RigtTip,.ind_RigtTime{font-size:12px;width:100%;}
+.ind_pupRoom{line-height:40px;font-size:16px;}
+.ind_pupReason{background-color:#133563;color:#F12626;font-size:12px;word-break:break-all;padding:3px 5px;margin-bottom:18px;}
+.ind_pupul{width:100%;}
+.ind_pupul li{position:relative;padding-left:80px;margin-bottom:18px;}
+.ind_pupul li .ind_SmTile{position:absolute;z-index:1;left:0;top:0;line-height:30px;height:30px;font-size:14px;}
+.ind_pupul li .ind_hanPut{height:30px;background-color:rgba(0,0,0,0);border:1px solid #00CCFF;width:100%;color:#FFFDEF;padding:0px 5px;}
+.loadingBox{line-height:25px;text-align: center;font-size:12px;color:#FFFFFF;margin:5px;background-color:#00CCFF;cursor:pointer;}
+.wsLine{box-shadow:0px 0px 2px #cb3332;animation:myfirst 2s;
+-webkit-animation:myfirst 2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-duration:2s;
+animation-timing-function:linear;
+}
+@keyframes myfirst
+{
+	0%   {box-shadow:0px 0px 2px #b12b2b;}
+	100% {box-shadow:0px 0px 12px #ff1500;}
+}
+
+@-webkit-keyframes myfirst
+{
+	0%   {box-shadow:0px 0px 2px #b12b2b;}
+	100% {box-shadow:0px 0px 12px #ff1500;}
+}

@@ -1,0 +1,27 @@
+.his_setLeftAfter{width:100%;height:100%;box-sizing: border-box;padding:60px 25px 60px 25px;position:relative;}
+.his_setLeftTitle{width:100%;height:60px;line-height:60px;text-align: center; position:absolute;z-index:1;left:0;top:0;box-sizing:border-box;padding:0px 15px;}
+.his_setLeftTitle h6{font-size:18px;background-image:url(../../images/title1.png);background-repeat:no-repeat;background-size:100% 30%;background-position: center;}
+
+.date_picker >>> ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+.dateRange >>> ::-moz-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+.dateRange >>> ::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+.el-range-editor--mini .el-range-input {
+    width: 85px;
+    background-color: #00000000;
+    color: #FFFFFF;
+    font-size: 14px !important;
+}
+.el-range-editor--mini .el-range-separator {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.el-date-editor .el-range__close-icon {
+    width: 20px !important;
+}

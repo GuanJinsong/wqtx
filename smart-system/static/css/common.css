@@ -1,0 +1,255 @@
+
+@font-face {
+    font-family: 'pingfang-b';
+    src: url('../font/pingfang-b.eot');
+    src:
+      url('../font/pingfang-b.eot?#iefix') format('embedded-opentype'),
+      url('../font/pingfang-b.woff') format('woff'),
+      url('../font/pingfang-b.ttf') format('truetype'),
+      url('../font/pingfang-b.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'pingfang-b','microsoft yahei';
+    -moz-user-select:none; /*火狐*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -ms-user-select:none; /*IE10*/
+    -khtml-user-select:none; /*早期浏览器*/
+    user-select:none;
+}
+
+div,ul,li,ol,dd,dt,p,button,input{padding:0;margin:0;outline:none;box-sizing:border-box;}
+.defaultName{height:100%;width:100%;box-sizing:border-box;padding:90px 20px 20px 20px;}
+.defaultName1{height:100%;width:100%;box-sizing:border-box;padding:70px 0px 0px 0px;}
+.defaultName2{height:100%;width:100%;box-sizing:border-box;padding:90px 20px 5px 20px;}
+.Edit{
+  border: none;
+  display: inline-block;
+  padding: 5px 5px;
+  color: #fff;
+  cursor: pointer;
+  background-color:#3d8fff;
+  font-weight:bold;
+  font-size:18px;
+}
+.Del{
+  border: none;
+  display: inline-block;
+  padding: 5px 5px;
+  color: #fff;
+  cursor: pointer;
+  background-color:#ff4c4f;
+  font-weight:bold;
+  font-size:18px;
+}
+.popEye{position:absolute;z-index:1;right:5px;top:2px;width:25px;height:25px;cursor:pointer;}
+.popEye1{position:absolute;z-index:1;right:6px;top:7px;width:25px;height:25px;cursor:pointer;}
+.t_tipList{min-width:100px;max-width:200px;}
+.t_tipList p{height:25px;width:100%;}
+.t_alarmTip{color:#00FF00;}
+.t_alarmTip1{color:#F12626;}
+.t_alarmTip2{color:#D2CECE;}
+
+.contentBox{width:100%;height:100%;position:relative;padding-left:320px;}
+.contentLeft{width:300px;position:absolute;z-index:10;left:0px;top:0px;bottom:0px;
+height:100%;background-color:#0b143b;box-shadow:0px 0px 25px #173a8b inset;
+background-image: url(../images/box11.png);background-size:100% 100%;background-repeat:no-repeat;
+}
+.contentRight{width:100%;height:100%;padding:3px;background-image: url(../images/box12.png);background-size:100% 100%;background-repeat:no-repeat;}
+.contentLeftList{overflow-y: auto;height:100%;width:100%;}
+.contentLeftList li{margin-bottom:15px;text-align:center;height:40px;line-height:40px;padding:0px 40px;cursor:pointer;background-image:url(../images/btn1.png);background-repeat:no-repeat;background-size:100% 100%;}
+.contLeftLiSelect{background-image:url(../images/btn4.png)!important;}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+  -webkit-appearance: none !important;}
+input[type="number"]{-moz-appearance:textfield;}
+
+/*滚动条样式*/
+/*滚动条整体样式*/
+/*width高宽分别对应横竖滚动条的尺寸*/
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+}
+/*滚动条里面小方块*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #c1c1c1;
+	  color:#ccc;
+}
+/*滚动条里面轨道*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+
+/* 横向自定义滚动条 */
+.horizontalScroll::-webkit-scrollbar {
+    width: 1px;
+    height: 10px;
+}
+
+/* 竖向滚动条 */
+.verticalScroll{
+    overflow-y:auto;
+ }
+ /* 这里设置的滚动条宽度和高度都为0,得到的效果是滚动条有效但是但不见，特殊情况下会需要这样的 */
+.verticalScroll::-webkit-scrollbar{
+    width:0px;
+    height:0px;
+    background-color: #61B6EB;
+}
+.verticalScroll::-webkit-scrollbar-track{
+    background: #213147;
+    border-radius:2px;
+}
+.verticalScroll::-webkit-scrollbar-thumb{
+    background: #61B6EB;
+    border-radius:2px;
+}
+.verticalScroll::-webkit-scrollbar-thumb:hover{
+    background: #61B6EB;
+}
+.verticalScroll::-webkit-scrollbar-corner{
+    background: #61B6EB;
+}
+
+
+/* 通用弹窗样式1*/
+.poupParnet{width:100%;height:100%;position:fixed;z-index:100;left:0;top:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;}
+.poupParnetAfter{min-height:200px;position:relative;padding:50px 30px 10px 30px;background-image:url(../images/popuBack.png);background-size:100% 100%;background-repeat:no-repeat;}
+.poupTitle{height:45px;color:#FFFFFF;position:absolute;z-index:1;right:0px;top:0;width:100%;}
+.poupTitleAfter{width:100%;height:100%;position:relative;}
+.poupTitleAfter h6{text-align: center;font-size:16px;line-height:44px;height:44px;}
+.poupTitleAfter span{font-size:20px;position:absolute;z-index:2;right:15px;bottom:-15px; display:block;line-height:30px;height:30px;width:30px;text-align:center;cursor:pointer;}
+.pubCenter{margin:15px 0px;}
+.poput{border:1px solid #08ccd8;}
+.poput input{width:100%!important;height:100%;background-color:rgba(0,0,0,0);border:none;padding:0px 5px;color:#FFFFFF;}
+.poupSure{width:100%;display:flex;justify-content:center;margin:20px 0px;}
+.poupSure button{font-size:14px;color:#FFFFFF;padding:4px 10px;border:1px solid #08ccd8;cursor:pointer;}
+.poupSure button:nth-of-type(1){margin-right:30px;background-color:#2c4363;}
+.poupSure button:nth-of-type(2){margin-left:30px;background-color:#066593;}
+
+/* 自定义弹窗通用样式2 */
+.editBox{position:fixed;z-index:50;left:0;top:0px;right:0px;bottom:0px;display:flex;justify-content:center;align-items:center;}
+.editBoxAfter{min-height:150px;box-shadow:0px 3px 7px #888888;background-color:#FFFFFF;}
+.editTitle{width:100%;position:relative;height:40px;line-height:40px;background-color:#19beae;text-align: center;color:#FFFFFF;}
+.editTitle span{position:absolute;z-index:1;right:0px;top:0;line-height:40px;width:40px;cursor:pointer;}
+.editBtn{text-align:right;padding:5px 20px;border-top:1px solid #19BEAE;}
+.editBtn button{display:inline-block;vertical-align:middle;padding:3px 8px;border:none;margin:0px 5px;background-color:#8c8c8c;color:#FFFFFF;cursor:pointer;}
+.editBtn button:first-child{background-color:#19BEAE;}
+.editMode{padding:15px 60px;font-family:pingfang-b;}
+.editMode li{position:relative;padding-left:70px;box-sizing:border-box;min-height:30px;margin-bottom:10px;line-height:30px;}
+
+/* 通用小标题自定义样式 */
+.smallTitle{width:100%;border-left:12px solid #19beae;height:30px;line-height:30px;padding-left:15px;margin-top:20px;}
+.smallTitle button{color:#FFFFFF;padding:2px 5px;border:none;background-color:#19BEAE;border-radius:5px;margin-left:10px;cursor:pointer;}
+.tempBoxTitle{position:absolute;z-index:1;left:0;top:0;right:0;height:43px;}
+.tempBoxTitle h6{line-height:40px;text-align:center;height:40px;font-size:18px;color:#FFFFFF;}
+.tempBoxTitle p{width:100%;height:3px;text-align: center;}
+.tempBoxTitle p b{width:100px;height:3px;display:block;margin:0px auto; text-align: center;border-bottom:1px solid #00ccff;}
+.tempBoxTitle p span{width: 0;height: 0;border-left: 5px solid transparent;border-right: 5px solid transparent; border-top: 5px solid #00ccff;}
+
+
+
+/* 自定义弹窗内的element组件样式修改 */
+.editTime{margin-right:10px;}
+.editTime .el-input__inner{width:100%!important;height:30px!important;line-height:30px!important;border:1px solid #19beae!important;border-radius:0px;background-color:rgba(0,0,0,0)!important;}
+.editTime .el-date-editor .el-range__icon{line-height:22px!important;}
+.editTime .el-date-editor .el-range-separator{line-height:22px!important;width:15px;font-size:12px;color:#FFFFFF;}
+.editTime .el-date-editor .el-range__close-icon{line-height:22px!important;}
+.editTime .el-range-input{background-color:rgba(0,0,0,0)!important;color:#FFFFFF!important;line-height:22px!important;}
+.editTime .el-input__icon{line-height:30px!important;}
+.editTime .el-date-editor.el-input{width:100%!important;}
+
+.editMM .el-input__inner{width:100%!important;height:30px!important;line-height:30px!important; border:1px solid #0c9ec5!important;border-radius:0px!important;background-color:rgba(0,0,0,0)!important;color:#FFFFFF!important;padding:0px 5px!important;}
+.editMM .el-input__icon{line-height:30px!important;}
+.editMM .el-select__tags{max-width:100%!important;}
+.editMM .el-select{width:100%;}
+.editMM .el-cascader{line-height:30px!important;width:100%;}
+
+.editMM1 .el-input__inner{width:100%!important;height:20px!important;line-height:20px!important; border:1px solid #0c9ec5!important;border-radius:0px!important;background-color:rgba(0,0,0,0)!important;color:#FFFFFF!important;padding:0px 5px!important;}
+.editMM1 .el-input__icon{line-height:20px!important;}
+.editMM1 .el-select__tags{max-width:100%!important;}
+.editMM1 .el-select{width:100%;}
+.editMM1 .el-cascader{line-height:20px!important;width:100%;}
+
+.editMM2 .el-input__inner{width:100%!important;height:24px!important;line-height:24px!important; border:0px solid #0c9ec5!important;border-radius:0px!important;background-color:rgba(0,0,0,0)!important;color:#FFFFFF!important;padding:0px 5px!important;}
+.editMM2 .el-input__icon{line-height:24px!important;}
+.editMM2 .el-select__tags{max-width:100%!important;}
+.editMM2 .el-select{width:100%;}
+.editMM2 .el-cascader{line-height:24px!important;width:100%;}
+
+/* 通用表格样式 */
+.dev_ManRight .el-table{background-color:#03203e!important;}
+.dev_ManRight .el-table thead{background-image:url(../images/line2.png);background-repeat:no-repeat!important;background-size:100% 100%;}
+.dev_ManRight .el-table thead th{background-color:rgba(0,0,0,0)!important;color:#FFFDEF;}
+.dev_ManRight .el-table tr{color:#FFFDEF;background-color:rgba(0,0,0,0)!important;}
+.dev_ManRight .el-table tbody tr:nth-child(odd){background-color:#061a3d!important;}
+.dev_ManRight .el-table tbody tr:nth-child(even){background-color:#233352!important;}
+.dev_ManRight .el-table th{padding:8px 2px!important;}
+.dev_ManRight .el-table td{padding:4px 2px!important;border-bottom:1px solid #40aaff!important;}
+.dev_ManRight .el-table th.is-leaf{border-bottom:1px solid #40aaff!important;}
+.dev_ManRight .el-table::before{background-color:#40aaff!important;}
+.dev_ManRight .el-table tbody tr:hover > td {
+  background-color: rgba(113,167,250,0.3) !important;
+}
+
+/* 通用计数器样式 */
+.pubPutNum .el-input-number{width:100px;line-height:30px!important;}
+.pubPutNum .el-input-number__decrease,.pubPutNum .el-input-number__increase{
+  width:30px!important;height:28px!important;line-height:28px!important;background:#173863!important;
+  border-radius: 0px 0 0 0px!important;color:#fff!important;
+}
+.pubPutNum .el-input__inner{
+  padding-left:30px!important;padding-right:30px!important;height:30px!important;line-height:30px!important;
+  border:1px solid #0c9ec5!important;background-color:#173863!important;color:#fff!important;border-radius:0px!important;
+}
+
+.onState{color:#00ff00;}
+.outState{color:#8f8b8d;}
+
+
+.loadingClass{font-size:36px;}
+html{height:100%;}
+body{overflow:auto;position:relative;height:100%;width:100%;}
+@media only screen and (max-width: 1360px) {
+    body{min-width:1300px!important;height:100%;min-height:600px;}
+    .headerBox{min-width:1300px!important;}
+}
+@media (min-width:1361px) and (max-width: 1366px) {
+    body{min-width:1300px!important;height:100%;min-height:600px;}
+    .headerBox{min-width:1300px!important;}
+}
+@media (min-width:1367px) and (max-width: 1400px) {
+    body{min-width:1350px!important;height:100%;min-height:600px;}
+    .headerBox{min-width:1350px!important;}
+}
+@media (min-width:1401px) and (max-width:1440px) {
+   body{min-width:1340px!important;height:100%;min-height:600px;}
+   .headerBox{min-width:1400px!important;}
+}
+@media (min-width:1441px) and (max-width:1600px) {
+   body{min-width:1500px!important;height:100%;min-height:600px;}
+   .headerBox{min-width:1500px!important;}
+}
+@media (min-width:1601px) and (max-width:1680px) {
+   body{min-width:1580px!important;height:100%;min-height:600px;}
+   .headerBox{min-width:1580px!important;}
+}
+@media (min-width:1681px) and (max-width:1900px) {
+   body{min-width:1820px!important;height:100%;min-height:600px;}
+   .headerBox{min-width:1820px!important;}
+}
+@media (min-width:1901px){
+   body{min-width:1820px!important;height:100%;min-height:800px;}
+   .headerBox{min-width:1820px!important;}
+}

@@ -1,0 +1,53 @@
+.headerBox{
+  display:flex;justify-content:space-between;position:absolute;z-index:100;left:0;top:0;right:0;width:100%;height:70px;
+  overflow:hidden;
+  border-bottom:5px solid #91d4fe;background-color:#071e48;
+  border-bottom:5px solid #ddd;
+  border-image: -webkit-linear-gradient(to left,#0bbafb, #3f87ed) 0 0 20 0;
+  border-image: -moz-linear-gradient(to left,#0bbafb, #3f87ed) 0 0 20 0;
+  border-image: -o-linear-gradient(to left,#0bbafb, #3f87ed) 0 0 20 0;
+  border-image: linear-gradient(to left, #0bbafb, #3f87ed) 0 0 20 0;
+}
+.navSelect{font-size:22px!important;color:#00CCFF;position:relative;
+  background-image:url(../../images/navIco.png);background-size:100% 70%;background-repeat:no-repeat;background-position: bottom;
+}
+.headerLeft{width:80%;padding:0px 20px 0px 50px;box-sizing:border-box;}
+.headTitle{
+  width:350px!important;box-sizing:border-box;font-size:26px!important;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0b2643; /* 浏览器不支持的时候显示 */
+  background-image: radial-gradient(#073362,#071e48); /* 标准的语法（必须放在最后） */
+}
+.headTitle span{text-align: start !important;}
+.imageBox{width: 35px; min-width: 35px; height: 100%; margin-right: 15px; display: flex; justify-content: center; align-items: center;}
+.imageBox img{width: 100%; height: auto;}
+.headNav{display:flex;justify-content:space-between;}
+.headNav li{width:100px;display:inline-block;vertical-align:middle;font-size:18px;color:#91d4ff;line-height:65px;height:65px;text-align:center;cursor:pointer;position:relative;}
+.activeIco{
+  width: 0;
+  height: 0;
+  border-width: 0 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent #0bbafb;
+  position: absolute;z-index:2;
+  left:39%;bottom:0px;
+}
+.headUser{width:20%;padding:15px 20px;display:flex;justify-content:center;background-color:#062949;}
+.headUserleft{width:45%;border-right:3px solid #FFFDEF;height:40px;line-height:40px;text-align: center;font-size:18px;cursor:pointer;}
+.headUserleft span{padding:4px;border:1px solid #FFFFFF;margin-right:5px;border-radius:50%;}
+.headUserleft i{text-decoration:underline;font-style:normal;}
+.headUseright{width:55%;height:40px;text-align: center;}
+.headUseright p{width:100%;line-height:20px;font-size:12px;}
+.headUseright p:nth-of-type(1){font-size:18px;}
+
+.userLofinOut{width:100px;}
+.userLofinOut p{cursor:pointer;width:100%;display:flex;flex-wrap:nowrap;align-items: center;font-size:14px;line-height:25px;border-bottom:1px solid #FFFFFF;}
+.userLofinOut p i{font-size:18px;margin-right:5px;}
+.userLofinOut p:hover{color:#00FFFF!important;}
+
+.hed_umPoup{width:100%;padding:0px 20px;}
+.hed_umPoup li{position:relative;padding-left:70px;min-height:30px;margin-bottom:15px;}
+.hed_umPoup .umSmall{position:absolute;z-index:1;left:0;top:0;width:70px;line-height:30px;font-size:14px;}
+.hed_umPoupPut{width:100%;height:30px;border:1px solid #00CCFF;background-color:#022b61;padding:0px 5px;color:#FFFFFF;}

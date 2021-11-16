@@ -1,0 +1,9 @@
+.ai_rankBox{padding:15px;width:100%;height:100%;overflow-y:auto;}
+.ai_rankUl li{padding:5px 10px;width:100%;margin-bottom:10px;}
+.ai_rankNum{width:100%;display:flex;justify-content:space-between;align-items:center;}
+.ai_rankNum p span{color:#17346c;font-size:12px;font-weight:bold;}
+.ai_rankNum p i{color:#FFFFFF;font-size:14px;margin-left:20px;font-style:normal;}
+.ai_rankNum b{font-size:12px;}
+.ai_rankpro{width:100%;}
+.ai_rankpro .el-progress-bar__outer{background-color:#0b143b!important;border-bottom:1px solid #17346c;border-radius:0px!important;}
+.ai_rankpro .el-progress-bar__inner{height:10px!important;border-radius:0px!important;background-color:#126ffa!important;}

@@ -1,0 +1,48 @@
+.loginBox{position:relative;width:100%;height:100%;box-sizing: border-box;padding-top:5%; background-image:url(../../images/loginback.png);background-size:100% 100%;background-repeat:no-repeat;}
+.loginTitle{position:absolute;z-index:20;left:0;top:0;right:0;min-height:80px;padding:2.5% 0px;}
+.loginTitle p{
+  font-size:31px;text-align:center;display:block;font-weight:bold;
+  background-image:-webkit-linear-gradient(bottom,#58aef7,#80bef9,#9fcaf7);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.loginTitle small{
+  font-size:12px;text-align:center;display:block;line-height:12px;
+  background-image:-webkit-linear-gradient(bottom,#58aef7,#80bef9,#9fcaf7);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.loginput,.loginAfterFlex{display:flex;width:100%;height:100%;justify-content:center;align-items:center;}
+.loginputAfter{background-image:url(../../images/loginput.png);background-size:100% 100%;background-repeat:no-repeat;}
+.loginAfterFlexChild{width:45%;height:45%;}
+.log_input{position:relative;background-color:#ffffff;border-radius:3px;padding-left:40px;box-sizing: border-box;width:100%;}
+.log_input span{color:#595959;position: absolute;z-index:1;left:6px;top:6px;font-size:24px;}
+.log_input input{height:40px;border:none;width:100%;font-size: 16px;}
+.forget i{display:inline-block;vertical-align: middle;font-size:12px;margin-left:5px;font-style:normal;}
+.chackSelect{color:#00CCFF!important;}
+.loginBtn button{width:100%;height:40px;border-radius:5px;border:1px solid #00CCFF;background-color:#0147a7;color:#FFFFFF;font-size:20px;margin-top:15%;cursor:pointer;}
+
+@media only screen and (max-width: 1360px) {
+  .loginputAfter{width:400px;height:400px;}
+}
+@media (min-width:1361px) and (max-width: 1366px) {
+  .loginputAfter{width:400px;height:400px;}
+}
+@media (min-width:1367px) and (max-width: 1400px) {
+  .loginputAfter{width:400px;height:400px;}
+}
+@media (min-width:1401px) and (max-width:1440px) {
+  .loginputAfter{width:400px;height:400px;}
+}
+@media (min-width:1441px) and (max-width:1600px) {
+  .loginputAfter{width:400px;height:400px;}
+}
+@media (min-width:1601px) and (max-width:1680px) {
+  .loginputAfter{width:450px;height:450px;}
+}
+@media (min-width:1681px) and (max-width:1920px) {
+  .loginputAfter{width:550px;height:550px;}
+}
+@media (min-width:1921px){
+  .loginputAfter{width:550px;height:550px;}
+}

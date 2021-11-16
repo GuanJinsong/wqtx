@@ -1,0 +1,26 @@
+.sys_rtBox{width:100%;height:100%;}
+.sys_rtTop{width:100%;height:100%;position:relative;padding-top:50px;}
+.sys_rtTitile{position:absolute;z-index:1;left:0;top:0;right:0;padding:10px 30px;display:flex;justify-content:flex-start;
+color:#FFFFFF;background-image:url(../../images/line2.png);background-repeat:no-repeat;background-size:100% 100%;
+}
+.sys_rtTitile h6{font-size:16px;margin-right:10px;line-height:24px;}
+.sys_rtTitile span{font-size:16px;font-weight:bold;padding:4px;background-color:#0e9dc7;cursor:pointer;}
+
+.sys_rtPupTitle{padding:10px 0px;display:flex;justify-content:flex-start;border-bottom:2px dotted #0086B3;margin-bottom:10px;}
+.sys_rtPupTitle p{line-height:30px;margin-right:10px;}
+.sys_rtPupTitle input{width:200px;height:30px;border:1px solid #1cfefc;background-color:#173863;padding:0px 5px;color:#FFFFFF;}
+.sys_rtPupTitleSmall{padding:8px 0px;display:flex;justify-content:flex-start;align-items:center;}
+.sys_rtPupTitleSmall p{margin-right:5px;}
+.rtPupTbParent{border-top:1px solid #00CCFF;border-left:1px solid #00CCFF;}
+.rtPupTableHead{width:100%;display:flex;flex-wrap: nowrap;font-size:12px;}
+.rtPupTableHead li{width:25%;border-bottom:1px solid #00CCFF;border-right:1px solid #00CCFF;background-color:#033884;}
+.rtPupTableHead li span{line-height:25px;display:inline-block;width:40px;text-align:center;}
+.rtPupTableHead li p{line-height:25px;display:inline-block;padding-left:5px;}
+.rtPupTablebody{width:100%;display:flex;flex-wrap:wrap;font-size:12px;}
+.rtPupTablebody li{width:25%;position:relative;padding-left:40px;height:25px;border-bottom:1px solid #00CCFF;border-right:1px solid #00CCFF;}
+.rtPupTablebody li span{position:absolute;z-index:1;left:1px;top:1px;width:40px;line-height:24px;text-align:center;}
+.rtPupTablebody li input{width:100%;height:24px;border:none;background-color:#1c3963;padding:0px 5px;color:#FFFFFF;}
+.sys_rtDetail{color:#00CCFF;text-decoration: underline;cursor:pointer;}
+.sys_rtPassAft{display:flex;flex-wrap: nowrap;align-items:center;}
+.sys_rtPassAft p:nth-of-type(1){margin-right:5px;}
+.sys_rtPass span{color:#00CCFF;word-break: break-word;}

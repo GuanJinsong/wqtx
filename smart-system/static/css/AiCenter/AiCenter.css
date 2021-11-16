@@ -1,0 +1,18 @@
+.ai_parent{width:100%;height:100%;padding:10px 10px 0px 10px;background-image:url(../../images/ai4.png);background-size:100% 96%;background-repeat:no-repeat;}
+.ai_top{width:100%;height:45%;padding:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap: nowrap;}
+.ai_topOne,.ai_topFour,
+.ai_toptow,.ai_topthree,
+.ai_topFive{
+  height:100%;margin:0px 10px;box-shadow:0px 0px 15px #275ad0 inset;
+  position:relative;padding-top:55px;
+}
+.ai_topOne,.ai_topFour{width:31%;}
+.ai_toptow,.ai_topthree{width:34%;}
+.ai_topFive{width:69%;}
+.ai_SmallTitle{position:absolute;z-index:1;width:100%;height:40px;left:0;top:5px;right:0;text-align: center;}
+.ai_SmallTitle h6{width:100%;height:35px;line-height:35px;font-size:18px; background-image:url(../../images/title1.png);background-repeat:no-repeat;background-size:60% 40%;background-position: center;}
+.ai_SmallTitle p{width:100%;line-height:10px;font-size:12px;color:#8f8f8f;}
+
+
+
+.ai_botton{width:100%;height:55%;padding:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap: nowrap}
