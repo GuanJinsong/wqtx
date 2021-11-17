@@ -20,6 +20,7 @@ if (process.env.NODE_ENV === 'production') {
   // imgLocalhost = "http://192.168.3.178:7070/api/";   //定义图片路径(本地服务器)
   // socketUrl = "ws://192.168.3.178:7070";    //定义实时通讯请求域名(本地服务器)
 
+  
   //本地测试访问3
   RequestUrl = "http://192.168.3.30:7070";   //全局通用ajax请求域名
   imgLocalhost = "http://192.168.3.30:7070/api/";   //定义图片路径(本地服务器)
