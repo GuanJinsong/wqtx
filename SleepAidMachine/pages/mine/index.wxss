@@ -1,0 +1,111 @@
+/* pages/mine/index.wxss */
+.top {
+  height: 450rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #24212D;
+  border-radius: 0px 0px 40rpx 40rpx;
+  overflow: hidden;
+}
+
+.sleep-bg {
+  width: 48vw;
+  height: 48vw;
+  position: absolute;
+  right: -7%;
+  top: 8%;
+}
+
+.logo-layer1 {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+  border: 3rpx solid #FFFFFF0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-layer2 {
+  width: 91%;
+  height: 91%;
+  border-radius: 50%;
+  border: 3rpx solid #FFFFFF33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-layer3 {
+  width: 91%;
+  height: 91%;
+  border-radius: 50%;
+  border: 3rpx solid #FFFFFF66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  /* border: 3rpx solid #FFFFFF; */
+}
+
+.user-name {
+  margin-top: 22rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.list {
+  padding: 20rpx 50rpx 0;
+}
+
+view .van-cell:after {
+  border-bottom: 0;
+  border-bottom-style: none;
+}
+
+view .van-cell--clickable {
+  background-color: #0D0917 !important;
+  padding: 30rpx 0;
+}
+.cell-title {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.cell-value {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ABABAB;
+}
+view .van-cell__right-icon-wrap {
+  color: #FFFFFF;
+}
+
+.logout {
+  margin: 100rpx 50rpx 0;
+  height: 84rpx;
+  background-color: #474747;
+  border-image: linear-gradient(45deg, rgba(255, 255, 255, 0.3)) 4 4;
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20rpx;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}

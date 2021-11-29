@@ -1,0 +1,338 @@
+.ind_LefParent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.ind_LefTop {
+  height: 60%;
+  width: 100%;
+  margin-bottom: 3%;
+  padding-top: 50px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 3px;
+  background-color: #085b69;
+  background-image: url(../../images/index_06.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.ind_LefBott {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 39%;
+  width: 100%;
+  padding-top: 40px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #085b69;
+  background-image: url(../../images/index_06.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.ind_lefRealTime {
+  width: 100%;
+  padding: 0px 10px 0px 15px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.ind_lefRealTime li {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-height: 40px;
+  background-color: #097c79;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  cursor:pointer;
+}
+.ind_lefRealTime li:hover{background-color:#01F6A9}
+
+.ind_lefRealTime li div {
+  padding: 0px 2px !important;
+  font-size: 14px;
+  min-width: 40px;
+}
+
+.ind_lefRealTime li div p {
+  display: table;
+  width: 100%;
+  min-height:40px;
+  text-align: center;
+}
+
+.ind_lefRealTime li div p span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  word-break: break-all;
+}
+
+.icoI {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  background-color:#f73515;
+  margin: -2px;
+}
+
+.ind_lefRealTime li div:nth-of-type(1) {
+  width: 10%;
+}
+
+.ind_lefRealTime li div:nth-of-type(2) {
+  width: 20%;
+  color:#efd232;
+}
+
+.ind_lefRealTime li div:nth-of-type(3) {
+  width: 30%;
+  color:#efa532;
+}
+
+.ind_lefRealTime li div:nth-of-type(4) {
+  width: 40%;
+}
+
+.pieChartParent {
+  width: 100%;
+  height: 100%;
+}
+
+.ind_lefStatus {
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  top: 10px;
+}
+
+.index_lefcontainer,.index_lefcont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-delay: 1s;
+}
+.index_lefcont .item-1,.index_lefcont .item-2,.index_lefcont .item-3,.index_lefcont .item-4,.index_lefcont .item-5{background-color:#8C8C8C;border-radius: 50%;width:10px;height:10px;margin:4px;}
+
+.index_lefcontainer .item-1 {
+  width: 10px;
+  height: 10px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eed968;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50%,
+  75% {
+    transform: scale(2);
+  }
+
+  78%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.index_lefcontainer .item-1:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eed968;
+  opacity: 0.7;
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation-delay: 200ms;
+  transition: 0.5s all ease;
+  transform: scale(1);
+}
+
+.index_lefcontainer .item-2 {
+  width: 10px;
+  height: 10px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eece68;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50%,
+  75% {
+    transform: scale(2);
+  }
+
+  78%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.index_lefcontainer .item-2:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eece68;
+  opacity: 0.7;
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation-delay: 400ms;
+  transition: 0.5s all ease;
+  transform: scale(1);
+}
+
+.index_lefcontainer .item-3 {
+  width: 10px;
+  height: 10px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eec368;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50%,
+  75% {
+    transform: scale(2);
+  }
+
+  78%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.index_lefcontainer .item-3:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eec368;
+  opacity: 0.7;
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation-delay: 600ms;
+  transition: 0.5s all ease;
+  transform: scale(1);
+}
+
+.index_lefcontainer .item-4 {
+  width: 10px;
+  height: 10px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #eead68;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50%,
+  75% {
+    transform: scale(2);
+  }
+
+  78%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.index_lefcontainer .item-4:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #eead68;
+  opacity: 0.7;
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation-delay: 800ms;
+  transition: 0.5s all ease;
+  transform: scale(1);
+}
+
+.index_lefcontainer .item-5 {
+  width: 10px;
+  height: 10px;
+  background: #f583a1;
+  border-radius: 50%;
+  background-color: #ee8c68;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  50%,
+  75% {
+    transform: scale(2);
+  }
+
+  78%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.index_lefcontainer .item-5:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ee8c68;
+  opacity: 0.7;
+  animation: scale 2s infinite cubic-bezier(0, 0, 0.49, 1.02);
+  animation-delay: 1000ms;
+  transition: 0.5s all ease;
+  transform: scale(1);
+}
+.alarmPop .el-form-item__label{width:75px;line-height:35px!important;}
+.alarmPop .el-input{width:260px;}
+.alarmPop .el-form-item{margin-bottom:10px!important;}
+.alarmPop .el-input__inner{height:35px!important;}
+.alarmPop .el-form-item__content {line-height: 30px !important;}
+.alarmPop .el-radio__label {line-height: 16px;}
+.aramInfo p{width:100%;box-sizing: border-box;padding:0px 30px 0px 74px;position:relative;min-height:30px;margin-bottom:10px;}
+.aramInfo p span{position:absolute;z-index:1;left:0px;top:0;width:64px;text-align:right;}

@@ -1,0 +1,73 @@
+/* RegionalFence */
+#myMap{width:100%;height:100%;}
+#myMap .amap-marker-label{background-color:rgba(0,0,0,0.5)!important;border:none!important;}
+.infoRegi{color:#00FFFF;}
+.Re_parent{height:100%;width:100%;background: url("../../static/images/bk.png") no-repeat center center ;background-size: 100% 100%;display:flex;flex-wrap:nowrap;box-sizing: border-box;}
+.RegionalFence{width:100%;height:100%;display:flex;flex-wrap: nowrap;}
+.Re_rightBox{width:20%;height:100%;position:relative; color:#FFFFFF;box-sizing: border-box;padding:5px 40px 5px 5px; background: url("../../static/images/leftBk.png") no-repeat center center ;background-size: 100% 100%;}
+.Re_rightBoxAfter{width:100%;height:100%; display:block;}
+.Re_smallTitle{height:30px;line-height:30px;font-size:14px;margin-top:5px;padding:0px 10px;}
+.selectColor{background-color:#00C5F9;}
+.R_tipWord{color:red;font-size:12px;display:block;padding:3px 10px;}
+.Re_sureBth{padding:0px 10px;}
+.Re_sureBth button{padding:0px 10px;height:25px;border:none;background:#00C5F9;font-size:12px;color:#FFFFFF;margin-bottom:10px;}
+.Re_rightTitle{line-height:50px;text-align: center;font-size:20px;font-weight:bold;}
+.Re_listParent{position:absolute;z-index:1;top:260px;right:42px;bottom:0px;left:10px; box-sizing:border-box;overflow-y:auto;}
+.Re_list{margin-bottom:8px;border-bottom:1px solid #FFFFFF;padding:3px 30px 3px 10px;position:relative;}
+.Re_deletBtn{position:absolute;z-index:1;right:5px;top:14px;color:#FFFFFF;font-size:20px;cursor:pointer;}
+.Re_list p{position:relative; line-height:20px;height:20px;padding-left:72px;}
+.Re_list p span{font-size:14px;line-height:20px;width:70px;position:absolute;z-index:1;left:0;top:0;}
+.Re_list p i{display:block;width:100%;overflow:hidden;white-space: normal;text-overflow: ellipsis;line-height:20px;cursor: pointer;height:20px;}
+.Re_list p button{border:none;background-color:#004863;color:#FFFFFF;border-radius:5px;height:20px;font-size:12px;padding:0px 8px;}
+.Re_mapBox{width:100%;height:100%;padding:10px 15px 10px 10px;box-sizing: border-box;}
+.amap-container{background:rgba(0,0,0,0)!important;outline: none;}
+
+/* RegionalFenceDraw */
+#myContainer{width:100%;height:100%;}
+#myContainer .amap-marker-label{background-color:rgba(0,0,0,0.5)!important;border:none!important;color:#FFFFFF!important;}
+.infoRegi{color:#00FFFF;}
+.Re_parent{height:100%;width:100%;background: url("../../static/images/bk.png") no-repeat center center ;background-size: 100% 100%;display:flex;flex-wrap:nowrap;box-sizing: border-box;}
+.RegionalFenceDraw{width:100%;height:100%;padding-left:380px; }
+.R_rightBox{width:380px;color:#FFFFFF;box-sizing: border-box;position:absolute;z-index:1;left:9px;top:10px;bottom:10px;padding:5px 40px 5px 5px; background: url("../../static/images/leftBk.png") no-repeat center center ;background-size: 100% 100%;}
+.R_rightBoxAfter{width:100%;height:100%;padding:0px 10px;box-sizing: border-box;}
+.R_rightTitle{line-height:50px;text-align: center;font-size:20px;font-weight:bold;}
+.R_smallTitle{height:35px;line-height:35px;font-size:14px;}
+.R_searchPut input{display:inline-block;vertical-align: middle;height:35px;background:rgba(0,0,0,0);color:#FFFFFF;padding:0px 5px;width:250px;border:2px solid #00A9D4;}
+.R_searchPut button{height:35px;border:none;background:#004863;color:#FFFFFF;width:59px;display:inline-block;vertical-align: middle;}
+.R_sureBth button{padding:0px 10px;height:35px;border:none;background:#008000;color:#FFFFFF;}
+.R_sureBth button:first-child{background-color:#004863;}
+.R_sureBth button:last-child{background-color:#1890FF;}
+.R_textarea textarea{border:none;background:rgba(0,0,0,0.6);color:#FFFFFF;width:100%;height:250px;padding:5px;}
+.R_coordList{border-bottom:1px solid #B1AFAF;margin-bottom:10px;position:relative;font-size: 14px;}
+.R_coordList p{display:flex;flex-flow:nowrap;}
+.R_coordList p span{line-height:25px;}
+.R_coordList p input{height:25px;border:1px solid #00FFFF;background:rgba(0,0,0,0);color:#FFFFFF;width:200px;padding:0px 5px;}
+.R_coordList p i{width:200px;overflow:hidden;white-space: normal;text-overflow: ellipsis;line-height:25px;cursor: pointer;}
+.R_deletBtn{position:absolute;z-index:1;right:5px;top:10px;color:#FFFFFF;font-size:24px;cursor:pointer;}
+.R_coordListPop p{display:flex;flex-flow:nowrap;}
+.R_coordListPop p span{line-height:30px;}
+.R_coordListPop p i{width:375px;overflow:hidden;white-space: normal;text-overflow: ellipsis;line-height:30px;cursor: pointer;height:30px;}
+.R_tipWord{color:red;font-size:12px;display:block;padding:3px 0px 3px 10px;}
+.amap-container{background:rgba(0,0,0,0)!important;outline: none;}
+
+.RegCascader{min-height:25px;display:flex;justify-content:space-between;}
+.RegCascader .el-cascader {display: inline-block;position: relative;font-size: 12px;line-height: 24px;width:100%;}
+.RegCascader .el-input {position: relative;font-size: 12px;display: inline-block;width: 100%;}
+.RegCascader .el-input__inner {border: 2px solid #01b5e3;border-radius: 0px;height: 35px;line-height: 35px;background-color:rgba(0,0,0,0);padding: 0 10px;color:#FFFFFF;}
+.RegCascader .el-input__icon{line-height:25px;color:#01b5e3;}
+.R_myCascader{background:rgba(7,25,45,0.8);border:none;}
+.R_myCascader .el-cascader-menu{color:#FFFFFF;}
+.R_myCascader .el-scrollbar__view li:hover{background:#00FFFF!important;}
+.R_myCascader .in-active-path,.s_myCascader .is-active{background:#00FFFF!important;}
+.R_myCascader .popper__arrow::after{border-bottom-color: #041423!important;}
+.R_myCascader .el-cascader-menu{min-width:140px!important;}
+.R_myCascader .el-cascader-node{padding:0px 20px 0px 10px!important;}
+.R_myCascader .el-cascader-node__prefix{left:4px!important;}
+.R_myCascader .el-icon-arrow-right,.R_myCascader .el-icon-check{line-height:34px!important;}
+
+
+
+@media screen and (max-width: 1400px) and (min-width: 1360px) {
+  .Re_rightBox{width:25%;}
+  .Re_mapBox{width:75%;}
+}

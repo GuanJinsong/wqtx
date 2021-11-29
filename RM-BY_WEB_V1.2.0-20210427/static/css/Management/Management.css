@@ -1,0 +1,4 @@
+.man_left{position:fixed;z-index:10;left:0;top:70px;bottom:0;width:240px;background-color:#FFFFFF;padding:20px 0px;}
+.man_leftNav{width:100%;}
+.man_leftNav li{padding:0px 20px;min-height:40px;line-height:40px;cursor:pointer;}
+.man_leftNavSelect{background-color:#bcf5f1!important;color:#239CAF!important;}

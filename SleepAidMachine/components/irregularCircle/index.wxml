@@ -1,0 +1,14 @@
+<!--components/irregularCircle/index.wxml-->
+<view class="box">
+  <view class="c1 c"></view>
+  <view class="c2 c"></view>
+  <view class="c3 c"></view>
+  <view class="c4 c"></view>
+
+  <view class="c5 c"></view>
+  <view class="c6 c"></view>
+
+  <view class="c7 c"></view>
+
+  <slot class="slot"></slot>
+</view>

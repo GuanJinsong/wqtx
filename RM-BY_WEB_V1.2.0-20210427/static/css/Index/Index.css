@@ -1,0 +1,4 @@
+.IndexParent{display:flex;flex-wrap:nowrap;}
+.ind_left{width:25%;height:100%; position:relative;min-width:350px;}
+.ind_center{width:50%;height:100%;margin:0px 20px;}
+.ind_right{width:25%;height:100%;min-width:350px;}

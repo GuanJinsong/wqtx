@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: 'pingfang-b';
+    src: url('../font/pingfang-b.eot');
+    src:
+      url('../font/pingfang-b.eot?#iefix') format('embedded-opentype'),
+      url('../font/pingfang-b.woff') format('woff'),
+      url('../font/pingfang-b.ttf') format('truetype'),
+      url('../font/pingfang-b.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'pingfang-b','microsoft yahei';
+    -moz-user-select:none; /*火狐*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -ms-user-select:none; /*IE10*/
+    -khtml-user-select:none; /*早期浏览器*/
+    user-select:none;
+}
+.el-icon-loading{font-size:36px!important;}
+div,ul,li,ol,dd,dt,p,button,input{padding:0;margin:0;outline:none;box-sizing:border-box;}
+.comonTop{position:absolute;z-index:1;left:0;top:70px;right:0;bottom:0;background-color:#DDDDDD;}
+.comonOtherTop{position:absolute;z-index:1;left:0;top:70px;right:0;bottom:0;background-color:#083556;box-sizing: border-box;padding:20px;}
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+  -webkit-appearance: none !important;}
+input[type="number"]{-moz-appearance:textfield;}
+
+/*滚动条样式*/
+/*滚动条整体样式*/
+/*width高宽分别对应横竖滚动条的尺寸*/
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+}
+/*滚动条里面小方块*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #c1c1c1;
+	  color:#ccc;
+}
+/*滚动条里面轨道*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+
+/* 横向自定义滚动条 */
+.horizontalScroll::-webkit-scrollbar {
+    width: 1px;
+    height: 10px;
+}
+
+/* 自定义弹窗通用样式 */
+.editBox{position:fixed;z-index:50;left:0;top:0px;right:0px;bottom:0px;display:flex;justify-content:center;align-items:center;}
+.editBoxAfter{min-height:150px;box-shadow:0px 3px 7px #888888;background-color:#FFFFFF;}
+.editTitle{width:100%;position:relative;height:40px;line-height:40px;background-color:#19beae;text-align: center;color:#FFFFFF;}
+.editTitle span{position:absolute;z-index:1;right:0px;top:0;line-height:40px;width:40px;cursor:pointer;}
+.editBtn{text-align:right;padding:5px 20px;border-top:1px solid #19BEAE;}
+.editBtn button{display:inline-block;vertical-align:middle;padding:3px 8px;border:none;margin:0px 5px;background-color:#8c8c8c;color:#FFFFFF;cursor:pointer;}
+.editBtn button:first-child{background-color:#19BEAE;}
+.editMode{padding:15px 60px;font-family:pingfang-b;}
+.editMode li{position:relative;padding-left:70px;box-sizing:border-box;min-height:30px;margin-bottom:10px;line-height:30px;}
+
+/* 通用小标题自定义样式 */
+.smallTitle{width:100%;border-left:12px solid #19beae;height:30px;line-height:30px;padding-left:15px;margin-top:20px;}
+.smallTitle button{color:#FFFFFF;padding:2px 5px;border:none;background-color:#19BEAE;border-radius:5px;margin-left:10px;cursor:pointer;}
+.tempBoxTitle{position:absolute;z-index:1;left:0;top:0;right:0;height:43px;}
+.tempBoxTitle h6{line-height:40px;text-align:center;height:40px;font-size:18px;color:#FFFFFF;}
+.tempBoxTitle p{width:100%;height:3px;text-align: center;}
+.tempBoxTitle p b{width:100px;height:3px;display:block;margin:0px auto; text-align: center;border-bottom:1px solid #00ccff;}
+.tempBoxTitle p span{width: 0;height: 0;border-left: 5px solid transparent;border-right: 5px solid transparent; border-top: 5px solid #00ccff;}
+
+
+
+/* 自定义弹窗内的element组件样式修改 */
+.editTime{margin-right:10px;}
+.editTime .el-input__inner{width:100%!important;height:30px!important;line-height:30px!important;border:1px solid #19beae!important;}
+.editTime .el-date-editor .el-range__icon{line-height:22px!important;}
+.editTime .el-date-editor .el-range-separator{line-height:22px!important;width:15px;font-size:12px;}
+.editTime .el-date-editor .el-range__close-icon{line-height:22px!important;}
+.editTime .el-input__icon{line-height:30px!important;}
+.editTime .el-date-editor.el-input{width:100%!important;}
+.editMM .el-input__inner{width:100%!important;height:30px!important;line-height:30px!important; border:1px solid #19beae!important;background-color:rgba(0,0,0,0)!important;}
+.editMM .el-input__icon{line-height:30px!important;}
+.editMM .el-select__tags{max-width:100%!important;}
+.editMM .el-select{width:100%;}
+.editMM .el-cascader{line-height:30px!important;width:100%;}
+.editMM .el-cascader__tags .el-tag>span{max-width:235px!important;word-wrap: normal;}
+.editMM .el-switch {padding-top: 3px !important;}
+
+html{height:100%;}
+body{overflow:auto;position:relative;}
+@media only screen and (max-width: 1280px) {
+    body{min-width:1280px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1281px) and (max-width: 1360px) {
+    body{min-width:1300px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1361px) and (max-width: 1366px) {
+    body{min-width:1300px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1367px) and (max-width: 1400px) {
+    body{min-width:1300px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1401px) and (max-width:1440px) {
+   body{min-width:1340px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1441px) and (max-width:1600px) {
+   body{min-width:1500px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1601px) and (max-width:1680px) {
+   body{min-width:1580px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1681px) and (max-width:1920px) {
+   body{min-width:1820px!important;height:100%;min-height:600px;}
+}

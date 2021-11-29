@@ -1,0 +1,36 @@
+<!--pages/alarmClock/index.wxml-->
+
+<scroll-view class="scroll-view">
+  <view class="top">
+    <view class="alarm-box">
+      <image class="alarm-bg" mode="aspectFit" src="/public/images/alarm-bg.png"></image>
+      <image class="second-around" mode="aspectFit" src="/public/images/alarm-second-around.png"
+        style="transform: rotate({{aroundStartAngle}}); -moz-transform: rotate({{aroundStartAngle}}); -webkit-transform: rotate({{aroundStartAngle}}); transition-duration: {{aroundHidden ? '10ms' : '1s'}}; -webkit-transition-duration: {{aroundHidden ? '10ms' : '1s'}}; -moz-transition-duration: {{aroundHidden ? '10ms' : '1s'}};">
+      </image>
+      <text class="time">{{currentTime}}</text>
+    </view>
+  </view>
+
+  <view class="count-down-box">
+    <text class="count-down">{{nextAlarmRemaining}}</text>
+  </view>
+
+  <view class="alarm-list">
+    <van-swipe-cell right-width="{{ 65 }}" class="" wx:for="{{alarms}}" wx:key="index" bind:click="onAlarmDelete"
+      data-index="{{index}}">
+      <view class="alarm-cell">
+        <view class="alarm-cell-left">
+          <text class="alarm-cell-left-title">{{item.time}}</text>
+          <text class="alarm-cell-left-subtitle">{{item.repeatText}}</text>
+        </view>
+        <van-switch checked="{{ item.isOpen }}" size="40rpx" style="margin-top: 8rpx;" bind:change="onSwitchChange"
+          data-index="{{index}}" />
+      </view>
+      <view slot="right" class="delete-box">删除</view>
+    </van-swipe-cell>
+  </view>
+</scroll-view>
+
+<view class="circle">
+  <van-icon class="plus" name="plus" bindtap="toAddAlarm" />
+</view>

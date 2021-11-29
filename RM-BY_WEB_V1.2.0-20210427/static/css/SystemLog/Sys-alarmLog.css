@@ -1,0 +1,37 @@
+.sys_alaParnet{margin:0px 0px 0px 260px;border-top:20px solid #DDDDDD; box-sizing: border-box;height:100%;position: relative;background-color:#FFFFFF;overflow:hidden;}
+.sys_alaParnetAfter{padding:5px 28px;position:absolute;z-index:1;left:0;top:48px;right:0;bottom:0px;overflow-y:auto;}
+.sys_alaPlus{padding:5px 0px;display:flex;flex-direction: row;align-items:center;}
+.sys_alaPlus button{color:#FFFFFF;padding:5px 10px;border:none;background-color:#19BEAE;border-radius:5px;cursor:pointer;}
+.sys_alaSearch{height:30px;border:1px solid #19BEAE;width:150px;display:inline-block;padding:0px 5px;}
+.sys_alaTable .el-table td{padding:5px 0px!important;}
+.sys_alaTable .el-table .has-gutter tr,.sys_alaTable .el-table th{background-color:#c8f8f5!important;}
+.sys_alaEdit{border:none;background-color:#19beae;border-radius:5px;display:inline-block;padding:3px 5px;color:#FFFFFF;cursor:pointer;}
+.sys_alaDel{border:none;background-color:#ff4c4f;border-radius:5px;display:inline-block;padding:3px 5px;color:#FFFFFF;cursor:pointer;}
+.sys_alaTime{width:260px;margin-left:10px;border:1px solid #19BEAE;box-sizing: border-box;}
+.sys_alaTime .el-input__inner{width:100%!important;height:28px!important;border:0px solid #19BEAE!important;}
+.sys_alaTime .el-date-editor .el-range__icon{line-height:24px;}
+.sys_alaTime .el-date-editor .el-range-separator{line-height:24px;}
+.sys_alaTime .el-date-editor .el-range__close-icon{line-height:24px;}
+.sys_alaTime .el-date-editor .el-range-input{line-height:24px;}
+.sys_alaType {width:150px;margin-left:10px;border:1px solid #19BEAE;box-sizing: border-box;}
+.sys_alaType .el-input__inner {width:100%!important;height:28px!important;border:0px solid #19BEAE!important;}
+.sys_alaType .el-input__icon {line-height: 30px !important;}
+.sys_alaCheck .el-checkbox{margin-right:17px!important;}
+.sys_alaCheck .el-checkbox__inner{border:1px solid #19BEAE!important;color:#19BEAE;}
+.sys_alaCheck .el-checkbox__label{color:#19BEAE;}
+.sys_alaCheck{height:30px;box-sizing: border-box;padding:4px 0px;margin:0px 10px;}
+.sys_alaElec{margin-left:10px;}
+.loadingClass{font-size:40px;}
+
+.h_titleIcoParent{display:flex;justify-content: flex-start;line-height:20px;}
+.h_titleIco{width: 24px;height: 15px;background: #00ccff;margin:3px 10px 0px -17px;}
+.sysRadio .el-radio-group .el-radio{color:#FFFFFF;}
+.eidt img {width: 15px;margin: 0px 5px;cursor: pointer;}
+.exexlTipBoxPar{display: flex;flex-wrap: nowrap;}
+.exexlTipBox{width:50%;box-sizing: border-box;}
+.exexlTipBox i{cursor:pointer;display:block;width:18px;height:18px;border-radius:50%;border:2px solid #00A9D4;float: left;margin-right:5px;}
+.exexlTipBox i span{display:block;width:14px;height:14px;border-radius:50%;float: left;margin:2px;}
+.exexlTipBox p{line-height:25px;height:25px;}
+.exexlSelect{background-color:#00FFFF!important;}
+.exTipTxt{font-size:12px;color:#d28b1b;line-height:14px!important;margin-top:10px!important;}
+.h_loadingClass{font-size:40px;}

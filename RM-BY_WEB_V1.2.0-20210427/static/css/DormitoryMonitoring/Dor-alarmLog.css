@@ -1,0 +1,51 @@
+.Dor_alaParent{position:absolute;width:380px;z-index:15; top:35px;right:0px;bottom:0px;border:1px solid #02F2AB;background-color:#0b586a;}
+.Dor_alaOtherBtn{position:absolute;z-index:10;left:-26px;top:50px;background-color:#003b4b;color:#FFFFFF;width: 25px;text-align: center;padding: 5px 0px;box-shadow:0 0 3px #01F6A9 inset;border:1xp solid #01F6A9;cursor:pointer;}
+.Dor_alaBox{width:378px;height:100%;overflow:hidden;}
+.Dor_alaRoomName{height:50px;line-height:50px;padding:0px 20px;display:flex;flex-wrap:nowrap;}
+.Dor_alaRoomName h5{width:95%;line-height:50px;font-size:22px;color:#FFFFFF;text-overflow: ellipsis;overflow:hidden;white-space: normal;}
+.Dor_alaRoomName span{line-height:30px;font-size:26px;color:#FFFFFF;cursor:pointer;}
+.Dor_alaTitle{line-height:30px;background-color:#077876;color:#FFFFFF;padding:0px 20px;font-size:16px;display:flex;justify-content:space-between;}
+.Dor_alaTitle i{font-size:12px;color:#E9B12A;}
+.Dor_alaul{display:flex;justify-content:space-between;flex-wrap:nowrap;height:135px;}
+.Dor_alaul li{width:33.3%;height:100%;}
+.Dor_alaTable{display:table;width:100%;height:100%;font-size:14px;color:#FFFFFF;}
+.Dor_alaTable div{display: table-cell;vertical-align:middle;text-align:center;}
+.Dor_alaTable div img{width:50%;height: auto;margin:5px 0px;}
+.Dor_alaTable div p{width:100%;text-align: center;}
+.Dor_alaListParent{position:absolute;z-index:1;left:0;top:245px;right:0;bottom:0;width:378px;box-sizing:border-box;padding:0px 0px 0px 10px;color:#FFFFFF;font-size:12px;}
+.Dor_alaListAfter{width:100%;height:100%;position:relative;box-sizing:border-box;padding-top:35px;}
+.Dor_alathead{position:absolute;z-index:1;width:100%;box-sizing:border-box;height:30px;line-height:30px;left:0;top:0;right:0;}
+.Dor_alathead ul{display:block;font-size:16px;}
+.Dor_alathead ul li{display:inline-block;vertical-align:middle;float:left;}
+.Dor_alathead ul li:nth-of-type(1),.Dor_alatbody ul li:nth-of-type(1){width:5%;}
+.Dor_alathead ul li:nth-of-type(2),.Dor_alatbody ul li:nth-of-type(2){width:24%;}
+.Dor_alathead ul li:nth-of-type(3),.Dor_alatbody ul li:nth-of-type(3){width:30%;}
+.Dor_alathead ul li:nth-of-type(4),.Dor_alatbody ul li:nth-of-type(4){width:41%;}
+
+.Dor_alatbody{width:100%;position:absolute;z-index:1;left:0;top:30px;right:0;bottom:0;overflow-y:auto;}
+.Dor_alatbody ul{display:table;width:100%;cursor:pointer;}
+.Dor_alatbody ul:hover{background-color:#47a487;}
+.Dor_alatbody ul li{display:table-cell;vertical-align:middle;padding:2px 3px;}
+.Dor_hand li{color:#e9b12a;font-family:pingfang-b!important;font-weight:bold;}
+.loadingBox{line-height:25px;text-align: center;font-size:12px;color:#FFFFFF;margin:5px;background-color:#02F2AB;cursor:pointer;}
+
+.boxopen{
+    transition:width 1s;
+    -webkit-transition:width 1s;
+    width:380px;
+}
+.boxclose{
+  transition:width 1s;
+  -webkit-transition:width 1s ;
+  width:0px;
+}
+
+
+.Dor_alarmPop .el-form-item__label{width:75px;line-height:35px!important;}
+.Dor_alarmPop .el-input{width:260px;}
+.Dor_alarmPop .el-form-item{margin-bottom:10px!important;}
+.Dor_alarmPop .el-input__inner{height:35px!important;}
+.Dor_alarmPop .el-form-item__content {line-height: 30px !important;}
+.Dor_alarmPop .el-radio__label {line-height: 16px;}
+.Dor_aramInfo p{width:100%;box-sizing: border-box;padding:0px 30px 0px 74px;position:relative;min-height:30px;margin-bottom:10px;}
+.Dor_aramInfo p span{position:absolute;z-index:1;left:0px;top:0;width:64px;text-align:right;}

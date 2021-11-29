@@ -1,0 +1,193 @@
+/* pages/health/sleepHealth/index.wxss */
+
+page {
+  padding: 0 40rpx;
+}
+
+.date-type-outside {
+  display: flex;
+  justify-content: center;
+}
+
+.date-type-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 280rpx;
+}
+
+.date-type-normal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60rpx;
+  height: 60rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #5E5E5E;
+}
+
+.date-type-selected {
+  background: #6490ff18;
+  border-radius: 50%;
+  color: #328CFA;
+}
+
+.between-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 32rpx;
+  font-family: Adobe Heiti Std;
+  font-weight: normal;
+  color: #ABABAB;
+}
+
+.date {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ABABAB;
+}
+
+.barchart-container {
+  position: relative;
+  margin-top: 56rpx;
+}
+
+.type-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 260rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.type-box text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ABABAB;
+}
+
+.barchart-box {
+  margin-left: 58rpx;
+  height: 260rpx;
+  border-left: 4rpx solid #FFFFFF30;
+  border-bottom: 4rpx solid #FFFFFF30;
+}
+
+.time-box {
+  margin: 10rpx 0 0 58rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.time-box text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 20rpx;
+  color: #ABABAB;
+}
+
+.sleep-times-score-box {
+  margin-top: 46rpx;
+  height: 200rpx;
+  border-radius: 40rpx;
+  background: #24212D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sleep-times-score-box view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.sleep-times-score-title {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.sleep-times {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.sleep-score {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #328CFA;
+}
+
+.piechart-box {
+  margin-top: 96rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.piechart-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.wake {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FB5336;
+}
+
+.light-sleep {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #328CFA;
+}
+
+.deep-sleep {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #2829D5;
+}
+
+.sleep-times-statable {
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.chart-box {
+  flex-grow: 1;
+  margin-right: 40rpx;
+  height: 260rpx;
+}
+
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}

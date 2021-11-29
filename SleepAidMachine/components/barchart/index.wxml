@@ -1,0 +1,5 @@
+<!--components/barchart/index.wxml-->
+
+<view class="outside">
+  <view wx:for="{{data}}" wx:key="index" style="width: {{item.width}}; height: {{item.height}}; background-image: {{item.backgroundImage}};"></view>
+</view>

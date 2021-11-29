@@ -1,0 +1,50 @@
+<!--pages/health/index.wxml-->
+
+<view class="top">
+  <text class="device-title">睡眠仪SLEEP001</text>
+  <view class="sleep-health-box">
+    <view class="between-row">
+      <text class="space-health">睡眠健康</text>
+      <van-icon name="warning-o" style="font-size: 32rpx;" color="#ffffff" bindtap="toSleepHealth" />
+    </view>
+    <text class="month">10/18</text>
+    <text class="time-tatal">07时00分</text>
+    <view style="height: 71rpx;">
+      <barchart></barchart>
+    </view>
+    <view class="between-row">
+      <text class="time-sub">23:30</text>
+      <text class="time-sub">06:30</text>
+    </view>
+  </view>
+</view>
+
+<view class="bottom">
+  <text class="space-health">空间健康</text>
+  <view class="air-box">
+    <view class="air">
+      <view class="between-row">
+        <text class="air-title">二氧化碳</text>
+        <text class="air-status bad">严重</text>
+      </view>
+      <text class="month">10/18</text>
+      <image src="/public/images/co2-icon.png" mode="aspectFit" class="air-icon"></image>
+      <view>
+        <text class="air-value">5000</text>
+        <text class="unit"> ppm</text>
+      </view>
+    </view>
+    <view class="air">
+      <view class="between-row">
+        <text class="air-title">甲醛</text>
+        <text class="air-status well">良好</text>
+      </view>
+      <text class="month">10/18</text>
+      <image src="/public/images/ch2o-icon.png" mode="aspectFit" class="air-icon"></image>
+      <view>
+        <text class="air-value">2.0</text>
+        <text class="unit"> mg/m³</text>
+      </view>
+    </view>
+  </view>
+</view>

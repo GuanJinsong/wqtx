@@ -1,0 +1,22 @@
+<!--pages/alarmClock/addAlarm/index.wxml-->
+
+<view class="picker-box">
+  <van-datetime-picker show-toolbar="{{false}}" type="time" value="{{ time }}" bind:input="onTimeInput"
+    custom-class="picker-class" column-class="picker-column" active-class="picker-active" />
+
+</view>
+
+<view style="width: 100%;">
+  <van-cell title-class="cell-title" value-class="cell-value" title="重复" is-link border="{{false}}"
+    value="{{selectRepeatOption.label}}" catchtap="tapRepeatCell" />
+  <van-cell title-class="cell-title" value-class="cell-value" title="铃声" is-link border="{{false}}" value="{{music}}"
+    catchtap="tapMusicCell" />
+</view>
+
+<view class="circle">
+  <van-icon class="checked" name="success" bindtap="checked" />
+</view>
+
+<van-popup show="{{ showRepeatPopup }}" position="bottom" custom-style="height: 40%;" bind:close="onCloseRepeatPopup">
+  <van-picker columns="{{ repeatOptions }}" default-index="{{timeDefaultIndex}}" bind:change="onRepeatChange" />
+</van-popup>

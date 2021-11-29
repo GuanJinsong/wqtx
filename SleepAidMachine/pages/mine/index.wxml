@@ -1,0 +1,22 @@
+<!--pages/mine/index.wxml-->
+
+<view class="top">
+  <image class="sleep-bg" mode="aspectFit" src="/public/images/sleep-bg.png"></image>
+  <view class="logo-layer1">
+    <view class="logo-layer2">
+      <view class="logo-layer3">
+        <image src="/public/images/logo.png" mode="aspectFit" class="logo" />
+      </view>
+    </view>
+  </view>
+  <text class="user-name">超级VIP用户</text>
+</view>
+
+<view class="list">
+  <van-cell title="个人资料" title-class="cell-title" value-class="cell-value" is-link />
+  <van-cell title="设备绑定" title-class="cell-title" value-class="cell-value" is-link value="" link-type="navigateTo"
+    url="/pages/mine/bindDevice/index" />
+  <van-cell title="关于" title-class="cell-title" value-class="cell-value" is-link />
+</view>
+
+<view class="logout">退出登录</view>

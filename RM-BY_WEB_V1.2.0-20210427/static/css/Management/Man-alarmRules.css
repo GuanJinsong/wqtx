@@ -1,0 +1,36 @@
+.man_alaParnet{margin:0px 0px 0px 260px;border-top:20px solid #DDDDDD; box-sizing: border-box;height:100%;position: relative;background-color:#FFFFFF;overflow-y:auto;}
+.man_alaParnetAfter{padding:5px 28px;}
+.man_alaPlus{padding:5px 0px;display:flex;flex-wrap: wrap;font-size:14px;}
+.man_alaPlus button{color:#FFFFFF;padding:2px 5px;border:none;background-color:#19BEAE;border-radius:5px;margin-left:10px;cursor:pointer;}
+
+.man_alaUl{min-height:50px;width:100%;}
+.man_alaLi{display:flex;justify-content:space-between;border-bottom:1px solid #afe9e3;padding:8px 0px;font-size:14px;}
+.man_alaDb p,.man_alaDb b,.man_alaDb span{display:inline-block;vertical-align:middle;line-height:25px;height:25px;}
+.man_alaTime p,.man_alaTime b,.man_alaTime span{display:inline-block;vertical-align:middle;line-height:25px;height:25px;}
+.man_alaTime b,.man_alaDb b{width:50px;background-color:#d2f2ef;border-radius:3px;padding:0px 5px;}
+.man_alaBtn{border:none;background-color:#19BEAE;color:#FFFFFF;border-radius:5px;padding:3px 6px;cursor:pointer;}
+
+.man_alaEditLi{position:absolute;z-index:1;width:70px;left:0;top:0;line-height:30px;text-align: left;font-size:12px;}
+.man_alaEditPut{display:flex;flex-wrap:nowrap;}
+.man_alaEditPut input{border:1px solid #19beae;border-radius:3px;height:30px;width:250px;padding:0px 5px;}
+.man_alaEditPut i{line-height:30px;color:#19BEAE;}
+.man_alaEditSelect{display:flex;flex-wrap:wrap;}
+
+.man_alaEdit{border:none;background-color:#19beae;border-radius:5px;display:inline-block;padding:3px 5px;color:#FFFFFF;cursor:pointer;}
+.man_alaDel{border:none;background-color:#ff4c4f;border-radius:5px;display:inline-block;padding:3px 5px;color:#FFFFFF;cursor:pointer;}
+.man_alaEditLi{position:absolute;z-index:1;width:70px;left:0;top:0;line-height:30px;text-align: left;font-size:12px;}
+.man_alaEditPut{display:flex;flex-wrap:nowrap;}
+.man_alaEditPut input{border:1px solid #19beae;border-radius:3px;height:30px;line-height:30px;width:250px;padding:0px 5px;}
+.man_ala_RuBodyBox{margin-bottom:25px;}
+
+
+.editTime .el-range-editor .el-range-input{line-height:22px;}
+.man_alaParnetAfter .el-table td{padding:5px 0px;}
+.man_alaParnetAfter .el-table thead th{background-color:#cdf8f5!important;padding:5px 0px;}
+.man_alaParnetAfter .el-col {display: flex; flex-direction: row;}
+.man_alaParnetAfter .el-col p {font-size: 14px; margin-right: 20px;}
+.w8{width:8%;}
+.w10{width:10%;}
+.w12{width:12%;}
+.w15{width:15%;}
+.w20{width:20%;}

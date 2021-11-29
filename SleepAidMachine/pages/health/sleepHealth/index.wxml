@@ -1,0 +1,63 @@
+<!--pages/health/sleepHealth/index.wxml-->
+
+<view class="date-type-outside">
+  <view class="date-type-box">
+    <view class="date-type-normal date-type-selected">日</view>
+    <view class="date-type-normal">月</view>
+    <view class="date-type-normal">年</view>
+  </view>
+</view>
+
+<view class="between-row" style="margin-top: 26rpx;">
+  <van-icon name="arrow-left" class="arrow" />
+  <text class="date">2021/10/18</text>
+  <van-icon name="arrow" class="arrow" />
+</view>
+
+<view class="barchart-container">
+  <view>
+    <view class="type-box">
+      <text>醒着</text>
+      <text>浅睡</text>
+      <text>深睡</text>
+    </view>
+    <view class="barchart-box">
+      <barchart></barchart>
+    </view>
+  </view>
+  <view class="time-box">
+    <text>23:42</text>
+    <text>06:02</text>
+  </view>
+</view>
+
+<view class="sleep-times-score-box">
+  <view>
+    <text class="sleep-times-score-title">睡眠时长</text>
+    <text class="sleep-times">07时20分</text>
+  </view>
+  <view>
+    <text class="sleep-times-score-title">睡眠评分</text>
+    <text class="sleep-score">87</text>
+  </view>
+</view>
+
+<view class="piechart-box">
+  <view class="chart-box">
+    <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}"></ec-canvas>
+  </view>
+  <view class="piechart-text-box">
+    <view>
+      <text class="wake">醒着</text>
+      <text class="sleep-times-statable">10min</text>
+    </view>
+    <view>
+      <text class="light-sleep">浅睡</text>
+      <text class="sleep-times-statable">3h40min</text>
+    </view>
+    <view>
+      <text class="deep-sleep">深睡</text>
+      <text class="sleep-times-statable">3h30min</text>
+    </view>
+  </view>
+</view>

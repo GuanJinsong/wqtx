@@ -1,0 +1,21 @@
+.Dor_treParent{width:100%;height:100%;box-sizing: border-box;overflow-y: auto;background-color:#0c546a;}
+.Dor_treList{width:100%;min-height:40px;margin-bottom:5px;padding:5px 10px;box-sizing: border-box;}
+.Dor_treTitle{background-color:#057d74;padding:0px 15px;height:40px;}
+.Dor_treTitle span{font-size:20px;color:#01F6A9;display:inline-block;vertical-align: middle;line-height:40px;}
+.Dor_treTitle input{width:200px;height:30px;font-size:18px;color:#FFFFFF;text-align: center;border:none;background-color:rgba(0,0,0,0);display:inline-block;vertical-align: middle;cursor:pointer;}
+.Dor_treTitle p{caret-color:red; width:200px;height:30px;line-height:30px;font-size:18px;color:#FFFFFF;text-align: center;background-color:rgba(0,0,0,0);display:inline-block;vertical-align: middle;box-sizing: border-box;border:1px solid #087d75;}
+.Dor_treUl{padding:10px 15px;display:flex;flex-wrap: wrap;}
+.Dor_treUl li{min-width:97px;padding:5px 10px;border:1px solid #22bf8e;border-radius:5px;color:#FFFFFF;margin:5px;cursor:pointer;overflow:hidden;}
+.Dor_treUl li:hover{background-color:#22bf8e;}
+.Dor_treUl li span{font-size:16px;color:#FFFFFF;}
+.Dor_treUl li input{width:75px; background-color:rgba(0,0,0,0);border:none;color:#FFFFFF;text-align: center;font-size:12px;cursor:pointer;}
+.Dor_treUl li p{display:inline-block;caret-color:red;min-width:65px;padding:0px 5px;box-sizing: border-box;}
+
+.Dor_treParent .el-collapse-item__header{background-color:#087d75;line-height:40px;border-bottom:none!important;}
+.Dor_treParent .el-collapse-item{margin-bottom:5px!important;}
+.Dor_treParent .el-icon-arrow-right:before{color:#02F2AB!important;font-weight:bold!important;}
+.Dor_treParent .el-collapse-item__wrap{background-color:#0c546a!important; border-bottom:none!important;}
+.Dor_treParent .el-collapse{border-bottom:none!important;border-top:none!important;}
+.Dor_eidt{border:1px solid #00FFFF!important;cursor:text!important;caret-color:red!important;}
+.selectColor{background-color: #22bf8e!important;}
+.borderStytle{border:1px solid #01F6A9!important;}

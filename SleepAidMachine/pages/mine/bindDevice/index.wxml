@@ -1,0 +1,26 @@
+<!--pages/mine/bindDevice/index.wxml-->
+
+<view class="tips-box">
+  <text class="tips">设备绑定需要开启手机蓝牙。</text>
+</view>
+
+<view class="circle-layer1">
+  <view class="circle-layer2">
+    <view class="circle-layer3">
+      <view class="circle-layer4">
+        <view class="circle-layer4">
+          <text class="search">搜索中...</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<scroll-view class="scroll-view" scroll-y="{{true}}">
+  <view class="device-list" style="padding-bottom: {{paddingBottom}};" hidden="{{devices.length <= 0}}">
+    <view wx:for="{{devices}}" wx:key="index" class="device-box">
+      <text class="device-name">{{item.name || item.deviceId}}</text>
+      <view class="bind" bindtap="bindDevice" data-device="{{item}}">绑定</view>
+    </view>
+  </view>
+</scroll-view>

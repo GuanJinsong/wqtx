@@ -1,0 +1,28 @@
+.HeaderOther{
+  width:100%;height:70px;box-sizing:border-box;position:fixed;z-index:10;left:0;top:0;right:0;
+  background-color:#0b4062;border-bottom:1px solid #00FFFF;
+  position:relative;
+}
+.headBack{width:100%;height:100%;}
+.HeaderOtherBox{display:flex;justify-content: space-between;padding:0px 20px;position:absolute;z-index:1;left:0;top:0;right:0;bottom:0;width:100%;}
+.hed_othLeft{width:30%;text-align: left;color:#FFFFFF;font-size:18px;display:flex;justify-content:space-between;}
+.hed_othLeft span{font-size:14px;margin-top:49px;margin-right:8%;width:160px;text-align:center;height:20px;color:#03F5A9;}
+.hed_othCenter{width:40%;text-align: center;line-height:70px;font-size:30px;color:#02f2ab;}
+.hed_othRight{width:30%;color:#02f2ab;font-size:14px;display:flex;flex-direction: row-reverse;}
+.hed_othLeft p,.hed_othRight p{height:40px;line-height:40px;margin-top:30px;width:165px;}
+.hed_othLeft p img{width:130px;height:auto;margin:7px 0px;}
+
+.hed_othnotif{width:300px;}
+.hed_othnotif p{width:100%;line-height:25px;}
+.hed_othnotif p:nth-of-type(2){color:#FFB401!important;}
+.notifyParent .el-notification__title{color:red!important;}
+
+.o_userBox{width:130px;height:50px;line-height:50px;box-sizing: border-box;margin-top:20px;text-align:right;}
+.o_hea_userParent{height:34px;line-height:34px;cursor: pointer;color:#FFFFFF;display:inline-block;}
+.o_hea_userParent:hover{color:#03F5A9!important;}
+.o_closeBtn{border:1px solid #239CAF;font-size:20px;border-radius:50%;padding:3px;display:inline-block;vertical-align:middle!important;}
+.o_hea_userName{line-height:34px;font-size:18px;display:inline-block;vertical-align:middle!important;text-overflow: ellipsis;overflow:hidden;white-space: nowrap;width:85px;padding-right:2px;}
+.o_userLoginOut{width:100px;}
+.o_userLoginOut p{cursor:pointer;width:100%;display:flex;flex-wrap:nowrap;align-items: center;font-size:14px;line-height:25px;border-bottom:1px solid #FFFFFF;}
+.o_userLoginOut p i{font-size:18px;margin-right:5px;}
+.o_userLoginOut p:hover{color:#00FFFF!important;}

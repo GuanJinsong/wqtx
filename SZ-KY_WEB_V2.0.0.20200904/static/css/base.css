@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'pingfang-b';
+  src: url('../font/pingfang-b.eot');
+  src:
+    url('../font/pingfang-b.eot?#iefix') format('embedded-opentype'),
+    url('../font/pingfang-b.woff') format('woff'),
+    url('../font/pingfang-b.ttf') format('truetype'),
+    url('../font/pingfang-b.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'pingfang-b','microsoft yahei';
+    -moz-user-select:none; /*火狐*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -ms-user-select:none; /*IE10*/
+    -khtml-user-select:none; /*早期浏览器*/
+    user-select:none;
+}
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, em, img, strong, sub, sup,i, center,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, tbody, thead, tr, th, td,
+canvas,header,nav,section , audio, video, input {
+    margin: 0;
+    padding: 0;
+}
+input,textarea,button{
+    outline: none!important;
+    box-sizing: border-box;
+}
+.el-icon-loading{font-size:36px!important;}
+.mainView{position:fixed;z-index:1;left:0px;top:85px;right:0px;bottom:0px;padding:0px 10px 10px 10px;}
+/*滚动条样式*/
+/*滚动条整体样式*/
+/*width高宽分别对应横竖滚动条的尺寸*/
+/* ::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+} */
+/*滚动条里面小方块*/
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #c1c1c1;
+	  color:#ccc;
+}
+/*滚动条里面轨道*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+
+/* 竖向自定义滚动条 */
+.verticalScroll::-webkit-scrollbar{
+  width: 10px;
+  height: 1px;
+}
+
+/* 横向自定义滚动条 */
+.horizontalScroll::-webkit-scrollbar {
+    width: 1px;
+    height: 10px;
+}
+
+body {color: rgba(0, 0, 0, 0.65);font-size: 12px;background-color: #fff;overflow:auto;position:relative;}
+html{height:100%;}
+@media only screen and (max-width: 1360px) {
+    body{min-width:1260px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1361px) and (max-width: 1366px) {
+    body{min-width:1266px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1367px) and (max-width: 1400px) {
+    body{min-width:1300px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1401px) and (max-width:1440px) {
+   body{min-width:1340px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1441px) and (max-width:1600px) {
+   body{min-width:1500px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1601px) and (max-width:1680px) {
+   body{min-width:1580px!important;height:100%;min-height:600px;}
+}
+@media (min-width:1681px) and (max-width:1920px) {
+   body{min-width:1820px!important;height:100%;min-height:600px;}
+}
+
+
+
+/* 暂无数据通用样式 */
+.noData{padding:20px 0px;}
+.noData img{width:50px;display:block;margin:0px auto;}
+.noData p{display:block;width:100%;text-align: center;}
+.nodataTip{display:flex;justify-content: center;width:100%;}
+.nodataTip img{margin:20px;}
+
+/* 分页通用样式 */
+.reportPageBox{width:100%;overflow:hidden;margin-top:10px;}
+.pageStyle{display:flex;justify-content:flex-end}
+.pageStyle li:first-child,.pageStyle li:last-child{border:none;margin:0px;}
+.pageStyle li{min-width:30px;height:30px;border:2px solid #01a7d3;color:#FFFFFF;text-align:center;line-height:30px;box-sizing: border-box;margin:0px 5px;cursor:pointer;}
+.pageSelect{background-color:#01a7d3;}
+
+/* 自定义元素360度旋转样式 */
+.myRotate{
+  animation: myRotate360 1s;
+  -webkit-animation: myRotate360 1s;
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  position:relative;
+}
+@keyframes myRotate360{
+  from {transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+  to {transform: rotate(360deg);-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);}
+}
+@-webkit-keyframes myRotate360{
+  from {transform: rotate(0deg);-ms-transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+  to {transform: rotate(360deg);-ms-transform: rotate(360deg);-webkit-transform: rotate(360deg);}
+}
+
+/* 自定义元素放大发光效果样式 */
+.enlargeLight{
+    animation: myfirst 2s;
+    -webkit-animation: myfirst 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes myfirst{
+    from {box-shadow: 0px 0px 2px 2px #00FFFF;transform: scale(1,1);}
+    to {box-shadow: 0px 0px 4px 4px #00FFFF;transform: scale(1.1,1.1);}
+}
+
+@-webkit-keyframes myfirst{
+    from {box-shadow: 0px 0px 2px 2px #00FFFF;transform: scale(1,1);}
+    to {box-shadow: 0px 0px 4px 4px #00FFFF;transform: scale(1.1,1.1);}
+}
+
+/* 自定义元素颜色样式渐变 */
+.Color1{animation: color1 2s;-webkit-animation: color1 2s;animation-timing-function: linear;animation-delay: 0s;animation-iteration-count: infinite;animation-direction: alternate;}
+@keyframes color1{from {background-color:#808080;}to{background-color:#d2351b;}}
+@-webkit-keyframes color1{from {background-color:#808080;}to{background-color:#d2351b;}}
+
+.Color2{animation: color2 2s;-webkit-animation: color2 2s;animation-timing-function: linear;animation-delay: 0s;animation-iteration-count: infinite;animation-direction: alternate;}
+@keyframes color2{from {background-color:#808080;}to{background-color:#d2761b;}}
+@-webkit-keyframes color2{from {background-color:#808080;}to{background-color:#d2761b;}}
+
+.Color3{animation: color3 2s;-webkit-animation: color3 2s;animation-timing-function: linear;animation-delay: 0s;animation-iteration-count: infinite;animation-direction: alternate;}
+@keyframes color3{from {background-color:#808080;}to{background-color:#d2b21b;}}
+@-webkit-keyframes color3{from {background-color:#808080;}to{background-color:#d2b21b;}}
+
+.Color4{animation: color4 2s;-webkit-animation: color4 2s;animation-timing-function: linear;animation-delay: 0s;animation-iteration-count: infinite;animation-direction: alternate;}
+@keyframes color4{from {background-color:#808080;}to{background-color:#a9d21b;}}
+@-webkit-keyframes color4{from {background-color:#808080;}to{background-color:#a9d21b;}}
+
+.Color5{animation: color5 2s;-webkit-animation: color5 2s;animation-timing-function: linear;animation-delay: 0s;animation-iteration-count: infinite;animation-direction: alternate;}
+@keyframes color5{from {background-color:#808080;}to{background-color:#60d21b;}}
+@-webkit-keyframes color5{from {background-color:#808080;}to{background-color:#60d21b;}}
+
+/* 公共弹窗父级样式 */
+.popParent{position:fixed;z-index:100;left:0px;top:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;background-color:rgba(0,0,0,0.5);}
+.popAfter{border:2px solid #00C2F2;border-radius:8px;background-color:#07192d;}
+
+.el-cascader__dropdown {
+  background: rgba(7,25,45,.8) !important;
+  border: none !important;
+}

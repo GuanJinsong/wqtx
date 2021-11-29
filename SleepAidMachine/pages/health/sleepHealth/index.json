@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "barchart": "/components/barchart/index",
+    "ec-canvas": "/components/ec-canvas/ec-canvas"
+  },
+  "navigationBarTitleText": "睡眠健康"
+}

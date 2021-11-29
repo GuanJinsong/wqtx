@@ -1,0 +1,107 @@
+/* pages/mine/bindDevice/index.wxss */
+
+page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tips-box {
+  width: 100%;
+  padding: 10rpx 40rpx 10rpx;
+  background-color: #1B1725;
+}
+
+.tips {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #C6C6C6;
+}
+
+.circle-layer1 {
+  margin-top: 70rpx;
+  width: 75vw;
+  height: 75vw;
+  padding: 4.5%;
+  border-radius: 50%;
+  border: 3rpx solid #FFFFFF0c;
+}
+
+.circle-layer2 {
+  padding: inherit;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 3rpx solid #FFFFFF33;
+}
+
+.circle-layer3 {
+  padding: inherit;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 3rpx solid #FFFFFF66;
+}
+
+.circle-layer4 {
+  padding: inherit;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 2rpx solid #328CFA;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ffffffcc;
+}
+
+.scroll-view {
+  margin-top: 100rpx;
+  /* overflow: scroll; */
+}
+
+.device-list {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #24212DCC;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.device-box {
+  padding: 90rpx 74rpx 0 90rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.device-name {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.bind {
+  min-width: 100rpx;
+  height: 60rpx;
+  background: #2F69FB;
+  border-radius: 20rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

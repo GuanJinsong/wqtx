@@ -1,0 +1,51 @@
+.body{background-color:#000;}
+.appAfter{position:absolute;z-index:100;left:0px;top:0px;right:0px;bottom:0px;padding:0px 10px;}
+.ss{color:#FFFFFF;}
+#mycanvas {
+  background-image:-webkit-radial-gradient(ellipse farthest-corner at center top,#000d4d 0%,#000105 100%);
+  background-image:radial-gradient(ellipse farthest-corner at center top,#000d4d 0%,#000105 100%);
+}
+#particles-js{position:fixed;z-index:1;left:0px;top:0px;right:0px;bottom:0px;}
+.d_box{width:310px;height:100%;font-size:12px;}
+.d_number{height:18px;line-height:18px;color:#008000;}
+.d_word{font-size:14px; height:18px;line-height:18px;color:red;width:100%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.d_address{height:18px;line-height:18px;color:#00FFFF;}
+.d_time{height:18px;line-height:18px;color:#00A7D3;text-align: right;}
+.allTipName{width:400px!important;}
+.allTipName .el-notification__group{width:100%;}
+.allDrawer{width:400px!important;}
+.a_alarmListPart{position:relative;width:100%;height:100%;}
+.a_alarmList{padding:10px;overflow-y:scroll;position:absolute;z-index:1;bottom:0px;left:0;top:77px;right:0;}
+.a_alarmList li{position:relative;min-height:100px;border-bottom:1px solid #00FFFF;padding:3px 0px;}
+.a_alarmPram{display:flex;justify-content: space-between;font-size:16px;color: #000000;}
+.a_alarmPram p{width:100px;height:20px;line-height:20px;}
+.a_alarmPram i{width:200px;height:20px;line-height:20px;}
+.a_alarmPram span{height:20px;line-height:20px;color:red;font-size:12px;}
+.a_alarmResult{font-size:14px;color:#7c7b7a;padding:0px 10px;line-height:20px;}
+.a_alarmAddress{font-size:12px;color:#7c7b7a;padding:0px 10px;line-height:20px;}
+.a_alarmTime{font-size:12px;color:#7c7b7a;padding:0px 10px;line-height:20px;}
+.a_alarmBtn{display:flex;justify-content:flex-end;}
+.a_alarmBtn button{border:none;outline:none;margin-left:20px;padding:3px 3px;font-size:12px; background-color: #00CCFF;color:#FFFFFF;cursor:pointer;}
+.a_alarmBtn button:last-child{background-color:#008000;}
+.a_drawerTitle{height:35px;line-height:35px;text-align:center;font-size:18px;}
+.tipWS{position: fixed;z-index:100;left:44px;top:45px;width:18px;height:17px;border-radius:50%;background-color:#00FFFF;}
+.a_alarmType{width:100%;border-bottom:1px solid #BFC7D3;display:flex;justify-content:center;}
+.a_alarmType p{width:120px;line-height:40px;text-align: center;cursor: pointer;}
+.typeSelect{color:red;border-bottom:2px solid red;}
+.tipRed{color:red;}
+.tipYellow{color:yellow;}
+.tipGread{color:green;}
+.socketStatu{position:absolute;z-index:1;right:40px;bottom:18px;width:100px;display:flex;flex-direction:row-reverse;}
+.socketStatu li{width:10px;height:10px;border-radius:50%;background-color:#003448;margin-left:5px;}
+.userLofinOut{width:100px;}
+.userLofinOut p{cursor:pointer;width:100%;display:flex;flex-wrap:nowrap;align-items: center;font-size:14px;line-height:25px;border-bottom:1px solid #FFFFFF;}
+.userLofinOut p i{font-size:18px;margin-right:5px;}
+.userLofinOut p:hover{color:#00FFFF!important;}
+.A_changeUser{padding:0px 40px;}
+.A_changeUser p{width:100%;height:30px;display:flex;flex-wrap: nowrap;align-items:center;margin-bottom:10px;}
+.A_changeUser p input{width:250px;height:25px;border:1px solid #9f9e9e;}
+.passDialog{width:400px!important;padding:10px 20px!important;}
+.passDialog .el-form-item__label{width:60px!important;}
+.passDialog .el-dialog__body{padding:10px 20px 0px 20px!important;}
+.passDialog .el-form-item__content{margin-left:60px!important;}
+.passDialog .el-form-item{margin-bottom:10px!important;}

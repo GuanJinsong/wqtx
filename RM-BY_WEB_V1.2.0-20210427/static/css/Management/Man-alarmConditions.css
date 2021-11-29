@@ -1,0 +1,11 @@
+.man_alaParnet{margin: 20px 0px 0px 260px;height:100%;position: relative;background-color:#FFFFFF;overflow:hidden;}
+.man_alaParnetAfter{padding:5px 28px;}
+.man_conEdit{border:none;background-color:#19beae;border-radius:5px;display:inline-block;padding:3px 5px;color:#FFFFFF;cursor:pointer;}
+.man_conDel{border:none;background-color:#ff4c4f;border-radius:5px;display:inline-block;padding:3px 5px;color:#FFFFFF;cursor:pointer;}
+.man_conTable .el-table td{padding:5px 0px!important;}
+.man_conTable .el-table .has-gutter tr,.man_conTable .el-table th{background-color:#c8f8f5!important;}
+
+.man_conEditLi{position:absolute;z-index:1;width:70px;left:0;top:0;line-height:30px;text-align: left;font-size:12px;}
+.man_conEditPut{display:flex;flex-wrap:nowrap;}
+.man_conEditPut input{border:1px solid #19beae;border-radius:3px;height:30px;width:250px;padding:0px 5px;}
+.man_conEditPut i{line-height:30px;color:#19BEAE;}

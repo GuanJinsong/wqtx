@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "circle": "/components/irregularCircle/index"
+  },
+  "navigationBarBackgroundColor": "#020405"
+}

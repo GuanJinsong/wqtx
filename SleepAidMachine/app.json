@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/helpSleep/index",
+    "pages/health/index",
+    "pages/alarmClock/index",
+    "pages/mine/index",
+    "pages/helpSleep/sleepSetting/index",
+    "pages/health/sleepHealth/index",
+    "pages/alarmClock/addAlarm/index",
+    "pages/mine/bindDevice/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "将访问你的位置以连接蓝牙设备"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0D0917",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0D0917"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#2F69FB",
+    "backgroundColor": "#1B1725",
+    "list": [
+      {
+        "iconPath": "public/images/music-normal.png",
+        "selectedIconPath": "public/images/music-selected.png",
+        "pagePath": "pages/helpSleep/index",
+        "text": "助眠"
+      },
+      {
+        "iconPath": "public/images/health-normal.png",
+        "selectedIconPath": "public/images/health-selected.png",
+        "pagePath": "pages/health/index",
+        "text": "健康"
+      },
+      {
+        "iconPath": "public/images/alarmClock-normal.png",
+        "selectedIconPath": "public/images/alarmClock-selected.png",
+        "pagePath": "pages/alarmClock/index",
+        "text": "闹钟"
+      },
+      {
+        "iconPath": "public/images/mine-normal.png",
+        "selectedIconPath": "public/images/mine-selected.png",
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-datetime-picker": "@vant/weapp/datetime-picker/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-switch": "@vant/weapp/switch/index",
+    "van-swipe-cell": "@vant/weapp/swipe-cell/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

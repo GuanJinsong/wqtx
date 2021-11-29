@@ -1,0 +1,16 @@
+<!--pages/helpSleep/sleepSetting/index.wxml-->
+
+<view style="width: 100%;">
+  <van-cell title-class="cell-title" value-class="cell-value" title="音乐" is-link border="{{false}}" value="夏蝉"
+    catchtap="tapMusicCell" />
+  <van-cell title-class="cell-title" value-class="cell-value" title="定时关闭" is-link border="{{false}}"
+    value="{{closeTimeText}}" catchtap="tapTimeCell" />
+</view>
+
+<view class="circle">
+  <van-icon class="checked" name="success" bindtap="checked" />
+</view>
+
+<van-popup show="{{ showTimePopup }}" position="bottom" custom-style="height: 40%;" bind:close="onCloseTimePopup">
+  <van-picker columns="{{ timeOptions }}" default-index="{{timeDefaultIndex}}" bind:change="onTimeChange" />
+</van-popup>

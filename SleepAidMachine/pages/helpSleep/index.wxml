@@ -1,0 +1,24 @@
+<!--pages/homepage/index.wxml-->
+<view class="top">
+  <view class="header">
+    <text class="title">夏蝉</text>
+    <image class="setting" catchtap="settingClicked" mode="aspectFit" src="/public/images/setting.png"></image>
+  </view>
+  <text class="sleep-time">预计睡眠：8小时</text>
+  <view class="layer1">
+    <circle style="width: 100%; height: 100%; position: absolute; z-index: -1;">
+    </circle>
+    <image class="play" src="/public/images/play-white.png"></image>
+    <text class="count-down">30:00</text>
+  </view>
+</view>
+<view class="bottom">
+  <scroll-view class="scroll-view" scroll-x="true" scroll-with-animation="true">
+    <view wx:for="{{musiclist}}" wx:key="index" class="music-item" style="background-color: {{item.background}};">
+      <view class="item-box">
+        <image src="/public/images/play-blue.png" class="item-play" mode="aspectFit"></image>
+        <text class="item-title">Title</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,44 @@
+/* pages/helpSleep/sleepSetting/index.wxss */
+page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+view .van-cell--clickable {
+  background-color: #0D0917 !important;
+}
+.cell-title {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.cell-value {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ABABAB;
+}
+view .van-cell__right-icon-wrap {
+  color: #FFFFFF;
+}
+
+.circle {
+  position: absolute;
+  bottom: 120rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background-color: #2F69FB;
+  border: 20rpx solid #1A1D3A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checked {
+  font-size: 52rpx;
+  color: #FFFFFF;
+}
